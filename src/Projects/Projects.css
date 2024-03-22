@@ -1,0 +1,147 @@
+
+.project{
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #f2f2f2;
+	
+}
+.project-container{
+	
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	
+	
+}
+.project-file{
+	margin: 25px 0px 150px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80rem;
+	
+}
+.project-file img{
+	max-width: 650px;
+	height: 320px;
+
+	
+
+}
+.project-file h1{
+	font-size: 30px;
+    
+    color: #20B2AA;
+    font-family: "Galdeano", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.project-file p{
+	font-size: 1.1rem;
+	margin: 5px 10px 10px 10px;
+	ffont-family: "Fenix", serif;
+  font-weight: 500;
+  font-style: normal;
+	color: #2F4F4F;
+}
+	
+.proj-but{
+	margin-top: 1rem;
+}
+.icons{
+	
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 4rem;
+	font-size: 30px;
+	
+
+
+}
+.text-bar{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2F4F4F;
+}
+.title-bar{
+  font-family: "Encode Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #2F4F4F;
+  font-variation-settings:
+    "wdth" 100
+}
+.loading{
+	
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 37px;
+  color: indianred;
+  margin-top: 20px;
+  margin-bottom: -12px;
+
+}
+.loading-font{
+	color: indianred;
+}
+
+@media screen and (max-width: 1110px){
+  .project-file{
+  	display: flex;
+  	flex-direction: column;
+  	width: 820px;
+  }
+  .project-file img{
+  	width: 650px;
+	  height: 320px;
+  }
+  .project-file h1{
+  	font-size: 40px;
+  }
+  .project-file p{
+  	font-family: sans-serif;
+  	font-size: 20px;
+  	padding: 10px;
+  	color: #2F4F4F;
+  }
+  .text-bar{
+  	color: #20B2AA;
+  	font-size: 33px;
+  }
+
+}
+@media screen and (max-width: 810px){
+  .project-file{
+  	display: flex;
+  	flex-direction: column;
+  	width: 390px;
+  }
+  .project-file img{
+  	width: 350px;
+	  height: 150px;
+  }
+  .project-file h1{
+  	font-size: 20px;
+  }
+  .project-file p{
+  	font-family: sans-serif;
+  	font-size: 17px;
+  	color: #2F4F4F;
+  }
+  .text-bar{
+  	color: #20B2AA;
+  	font-size: 18px;
+  	color: #2F4F4F;
+  }
+
+}

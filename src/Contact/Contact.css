@@ -1,0 +1,103 @@
+.contacts{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding-top: 100px;
+	
+	
+}
+.title{
+	color: #20B2AA;
+	text-align: left;
+	padding-left: 110px;
+
+}
+.contact{
+	padding: 0px 110px;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 10rem;
+	justify-content: space-between;	
+}
+.contact-container{
+	display: flex;
+	align-items: center;
+	padding: 0 20px 0px 0px;
+	margin-top: 50px;	
+}
+.contact-logo{
+	font-size: 3rem;
+	margin-right: 18px;
+	color: #20B2AA;
+	
+}
+.contact-text h1{
+	font-size: 1.5em;
+	margin-top: 1px;
+	text-align: left;
+}
+.contact-text p{
+	margin-top: -18px;
+}
+.cont-title{
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 1px;
+  text-align: left;
+}
+@media screen and (max-width: 1110px){
+ .title{
+	color: #20B2AA;
+	text-align: center;
+	padding-left: 10px;
+	font-size: 10px;
+
+}
+.contact{
+	padding: 0px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+	
+}
+.contact-text h1{
+	font-size: 1em;
+	margin-top: 1px;
+	text-align: left;
+}
+.contact-logo{
+	font-size: 2rem;
+	margin-right: 18px;
+	color: #20B2AA;
+	
+}
+}
+
+@media screen and (max-width: 810px){
+ .title{
+	color: #20B2AA;
+	text-align: center;
+	padding-left: 10px;
+	font-size: 10px;
+
+}
+.contact{
+	padding: 0px 85px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.contact-text h1{
+	font-size: 20px;
+	margin-top: 1px;
+	text-align: left;
+}
+.contact-logo{
+	font-size: 2rem;
+	margin-right: 18px;
+	color: #20B2AA;
+	
+}
+}

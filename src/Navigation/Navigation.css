@@ -1,0 +1,87 @@
+.nav-bar{
+	top: 0;
+	left:0;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 5.7rem;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+	background-color: white;
+	cursor: pointer;
+	
+}
+.nav-start{
+	
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: 700;
+	color: #2F4F4F;
+	
+	margin-left: 15px;
+}
+
+.nav-menus a {
+  font-size: 21px;
+  color: #2F4F4F;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 35px;
+  transition: 0.3s;
+  transition: border-bottom 7s ease;
+}
+.nav-menus{
+	margin-right: 32px;
+	margin-top: 10px;
+}
+.nav-menus a:hover{
+	padding-bottom: 5px;
+	border-bottom: 3px solid yellow;
+}
+.bars{
+	display: none;
+}
+
+
+@media screen and (max-width: 1110px){
+	
+	.bars{
+	font-size: 30px;
+	margin-right: 20px;
+	color: white;
+}
+}
+@media screen and (max-width: 810px){
+	.nav-menus{
+		display: none;
+	}
+.bars{
+	display: flex;
+	font-size: 30px;
+	margin-right: 20px;
+	color: black;
+}
+
+.second-nav-menu {
+  background-color: white;
+  height: 100vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%; /* initially hide off-screen */
+  transition: left 0.35s ease; /* smooth transition */
+}
+
+.second-nav-menu.active {
+  right: 0; /* slide in from left when active */
+  transition: 350ms;
+}
+
+.second-nav-menu.active{
+	left: 0;
+	transition: 350ms;
+}
+}
