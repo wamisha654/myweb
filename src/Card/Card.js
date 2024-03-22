@@ -9,6 +9,8 @@ import img from './reactLogo.png';
 import img2 from './htmlLogo.png';
 import img3 from './cssLogo.png';
 import img4 from './jsLogo.png';
+import img5 from './typeScript.png';
+import img6 from './redux.png';
 import cv from './Wamisha CV.pdf';
 import certificate from './myCertificate.pdf';
 
@@ -48,6 +50,8 @@ const Card = () =>{
 			    	    <img src={img2} />
 			    	    <img src={img3} />
 			    	    <img src={img4} />
+			    	    <img src={img5} />
+			    	    <img src={img6} />
 			        </div>
 			    	
 			    	
