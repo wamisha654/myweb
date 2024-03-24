@@ -31,13 +31,17 @@
 	color: #20B2AA;
 	
 }
-.contact-text h1{
+.contact-text a{
 	font-size: 1.5em;
 	margin-top: 1px;
 	text-align: left;
+	font-weight: 700;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
 }
 .contact-text p{
-	margin-top: -18px;
+	margin-top: 10px;
 }
 .cont-title{
   font-size: 1.5em;
@@ -61,10 +65,11 @@
 	
 	
 }
-.contact-text h1{
+.contact-text a{
 	font-size: 1em;
 	margin-top: 1px;
 	text-align: left;
+
 }
 .contact-logo{
 	font-size: 2rem;
@@ -89,10 +94,17 @@
 	justify-content: center;
 	align-items: flex-start;
 }
-.contact-text h1{
+.contact-text a{
+	font-size: 18px;
+}
+.contact-text p{
+	margin-top: 1px;
+}
+.contact-text {
 	font-size: 20px;
 	margin-top: 1px;
 	text-align: left;
+	
 }
 .contact-logo{
 	font-size: 2rem;

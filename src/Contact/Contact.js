@@ -15,9 +15,9 @@ const Contact = ()=>{
   	
   	<div className = "contact">
   		<section className = "contact-container">
-  			<h1 className = "contact-logo"><AiOutlineMail /></h1>
+  			<h1 className = "contact-logo" href="https://mail.google.com/" target="_blank"><AiOutlineMail /></h1>
   			<div className = "contact-text">
-  			<h1>Mail</h1>
+  			<a href="https://mail.google.com/" target="_blank">Mail</a>
   			<p>wamikiya@gmail.com</p>
   			</div>
   			
@@ -25,7 +25,7 @@ const Contact = ()=>{
       <section className = "contact-container">
         <a className = "contact-logo" href="https://github.com/wamisha654" target="_blank"><FaGithub /></a>
         <div className = "contact-text">
-         <h1>Github</h1>
+         <a href="https://github.com/wamisha654" target="_blank">Github</a>
          <p>wamisha654</p>
         </div>
         
@@ -33,7 +33,7 @@ const Contact = ()=>{
   		<section className = "contact-container">
   			<h1 className = "contact-logo"><FaPhoneAlt /></h1>
   			<div className = "contact-text">
-  			<h1>Phone</h1>
+  			<a >Phone</a>
   			<p>+48 729246430</p>
   			</div>
   			
@@ -41,7 +41,7 @@ const Contact = ()=>{
   		<section className = "contact-container">
   			<a className = "contact-logo" href="https://www.linkedin.com/in/wamisha-minamo-27a3351a3/" target="_blank"><FaLinkedin /></a>
   			<div className = "contact-text">
-  			 <h1>Linkedin</h1>
+  			 <a href="https://www.linkedin.com/in/wamisha-minamo-27a3351a3/" target="_blank">Linkedin</a>
          <p>Wamisha Minamo</p>
   			</div>
   			
