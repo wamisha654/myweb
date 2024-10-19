@@ -3,6 +3,7 @@ import './Projects.css';
 import img from './myEcommerce.PNG'
 import img1 from './smartBrain.PNG'
 import img2 from './myWeather.PNG'
+import img3 from './Kiya.PNG'
 import { FaReact } from "react-icons/fa6";
 import { BsFiletypeScss } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
@@ -22,9 +23,9 @@ const Projects = () =>{
            	 <div className="project-file">
            	  <img src={img} alt ="" />
            	  <section>
-           	    <h1>Online Shopping</h1>
-           	  	<p>E-commerce web application designed to facilitate online trading for users. While still a work in progress, this project showcases my skills in front-end development and my commitment to creating user-friendly experiences in the digital realm.</p>
-           	  <section className = "loading"><TbProgress /><p className = "loading-font">Loading</p></section>
+           	    <h1>Bike shop and service</h1>
+           	  	<p>My latest project is an online bike shop with a twist! Not only can customers browse and purchase bikes, but they can also book bike service. I am currently hard at work on this project, but you can stay updated on its progress and see the latest status.</p>
+           	  <section className = "loading"><TbProgress /><a target="blank" className = "loading-font" href="https://my-bike.vercel.app/store">Loading</a></section>
            	  <section className = "icons">
            	  	<FaReact /> <BsFiletypeScss /><GrHeroku />
            	  </section>
@@ -46,6 +47,23 @@ const Projects = () =>{
            	  </section>
            	  </section>
            	  
+           	 	
+           	 </div>
+           	 <div className="project-file">
+           	  <img src={img3} alt ="" />
+           	  <section>
+           	    <h1>A portfolio website</h1>
+           	  	<p> This is a portfolio website for a talented movie writer, director, and producer. This website was designed to show off their amazing work and connect with fans.</p>
+           	    <section>
+           	    	<a href="https://semagngeta.com/" target="_blank">
+           	    		<button className= "my-butt proj-but">Live Demo</button>
+           	    	</a>
+           	    </section>
+           	    <section className = "icons">
+           	  	 <FaHtml5 /><FaReact /> <BsFiletypeScss /><SiJavascript />
+           	  </section>
+           	  </section>
+
            	 	
            	 </div>
            	 <div className="project-file">
