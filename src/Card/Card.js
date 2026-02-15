@@ -1,67 +1,61 @@
-import React from 'react';
-import './Card.css'
-import { SiHtml5 } from "react-icons/si";
-import { SiCss3 } from "react-icons/si";
-import { FaReact } from "react-icons/fa6";
-import { IoLogoJavascript } from "react-icons/io";
+import React from "react";
+import "./Card.css";
 import { GrLocation } from "react-icons/gr";
-import img from './reactLogo.png';
-import img2 from './htmlLogo.png';
-import img3 from './cssLogo.png';
-import img4 from './jsLogo.png';
-import img5 from './typeScript.png';
-import img6 from './redux.png';
-import cv from './Wamisha CV.pdf';
-import certificate from './myCertificate.pdf';
+import profile from "./img.jpg";
+import cv from "./Wamisha CV.pdf";
+import certificate from "./myCertificate.pdf";
 
+const Card = () => {
+  return (
+    <section className="hero-section">
+      <div className="hero-container">
 
-const Card = () =>{
-	return(
-		<div className="card-main">
-			<div className = "card-box">
-			
-               <div className = "font-text">
-            	<h3>Front-End developer</h3>
-			    <p> Hi i am Wamisha Minamo. A passionate front end <br /> developer based in poland <GrLocation /></p>
-			    <div className="olusha">
-			    	<a href = {cv} download = {cv}>
-                	<button className = "my-butt">My CV</button>
-                </a>
-                <a href = {certificate} download = {certificate}>
-                	<button className = "my-butt">Certificate</button>
-                </a>
-			    </div>
-                
-                
-            
-              </div>
-            <div className = "profile-pic">
-            
-            <div className = "profile-pic-background"></div>
-		    </div>
-		    
-		    
-			</div>
-			<div>
-				<div className = "tech-stack">
-			        <h4 className = "tech-font">Tech stack</h4>
-			        <div className="tech-images">
-			        	<img src={img} />
-			    	    <img src={img2} />
-			    	    <img src={img3} />
-			    	    <img src={img4} />
-			    	    <img src={img5} />
-			    	    <img src={img6} />
-			        </div>
-			    	
-			    	
-			</div>
-			</div>
-			
-		  </div>
-		
-		
-		);
-}
+        {/* LEFT SIDE */}
+        <div className="hero-content">
+          <h1>
+            Hi, I'm <span>Wamisha Minamo</span>
+          </h1>
+
+          <h2 className="hero-role">
+            Technical Support Engineer
+          </h2>
+
+          <p className="hero-description">
+            Passionate Technical Support Engineer based in Poland <GrLocation className="location-icon" />.
+            I specialize in troubleshooting, system support, and building efficient technical solutions.
+          </p>
+
+          <div className="hero-buttons">
+            <a href={cv} download>
+              <button className="primary-btn">Download CV</button>
+            </a>
+
+            <a href={certificate} download>
+              <button className="secondary-btn">Certificate</button>
+            </a>
+          </div>
+
+          <div className="tech-stack">
+            <h4>Tech Stack</h4>
+            <div className="tech-badges">
+              <span>ITSM</span>
+              <span>Python</span>
+              <span>SQL</span>
+              <span>PowerShell</span>
+              <span>AWS</span>
+              <span>Azure</span>
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT SIDE */}
+        <div className="hero-image">
+          <img src={profile} alt="Wamisha Minamo" />
+        </div>
+
+      </div>
+    </section>
+  );
+};
 
 export default Card;

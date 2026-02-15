@@ -1,6 +1,40 @@
-.footer{
-	padding: 20px 90px;
-	background-color: #0e0e0b;
-	color: white;
-	
+.footer {
+  background-color: #0f172a;
+  padding: 40px 10%;
+  color: #cbd5e1;
+  text-align: center;
+  border-top: 1px solid #334155;
+}
+
+.footer p {
+  margin: 0 0 15px 0;
+  font-size: 0.95rem;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.footer-socials a {
+  color: #cbd5e1;
+  font-size: 1.3rem;
+  transition: 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #38bdf8;
+  transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .footer {
+    padding: 30px 5%;
+  }
+
+  .footer-socials {
+    gap: 15px;
+  }
 }
