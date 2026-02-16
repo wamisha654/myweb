@@ -65,7 +65,7 @@ const Projects = () => {
             </div>
 
             <a
-              href="https://my-bike.vercel.app/service"
+              href="https://marathon-livid.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="project-btn"
