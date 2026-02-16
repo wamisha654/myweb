@@ -1,9 +1,8 @@
 import React from "react";
 import "./Card.css";
 import { GrLocation } from "react-icons/gr";
-import profile from "./img.jpg";
+import profile from "./img1.jpg";
 import cv from "./Wamisha CV.pdf";
-import certificate from "./myCertificate.pdf";
 
 const Card = () => {
   return (
@@ -30,20 +29,23 @@ const Card = () => {
               <button className="primary-btn">Download CV</button>
             </a>
 
-            <a href={certificate} download>
-              <button className="secondary-btn">Certificate</button>
-            </a>
           </div>
 
           <div className="tech-stack">
             <h4>Tech Stack</h4>
             <div className="tech-badges">
-              <span>ITSM</span>
+             
               <span>Python</span>
               <span>SQL</span>
               <span>PowerShell</span>
+              <span>APIs</span>
+              <span>Git</span>
+              <span>Jenkins</span>
+              <span>Docker</span>
+              <span>Kubernetes</span>
               <span>AWS</span>
               <span>Azure</span>
+               <span>ITSM</span>
             </div>
           </div>
         </div>

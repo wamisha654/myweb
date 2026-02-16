@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>© 2024 Wamisha Minamo. All rights reserved.</p>
+        <p>© 2026 Wamisha Minamo. All rights reserved.</p>
         <div className="footer-socials">
           <a href="https://github.com/wamisha654" target="_blank" rel="noopener noreferrer">
             <FaGithub />
